@@ -1,0 +1,8 @@
+body {
+    background-image: url('papertexture.avif');
+}
+.album:hover {
+  background-image: url('recordbutton.png');
+  background-size:cover;
+}
+
