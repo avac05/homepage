@@ -13,6 +13,7 @@
     left:30%;
     transform: translate(-50%, 50%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 dl {
     font-size:small;
@@ -27,6 +28,7 @@ a:visited {
 }
 a {
     text-decoration: none;
+    color:black;
 }
 
 .inline-block1 {
@@ -39,6 +41,7 @@ a {
    float: right;
    font-size:xx-large;
    font-family:'Courier New', Courier, monospace;
+   color:rgb(118, 14, 93);
 }
 
 dt:hover {
@@ -54,13 +57,16 @@ dt:hover {
      transform: translate(-50%, 50%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:xx-large;
-    color:rgb(255, 255, 255);
+    color:rgb(118, 14, 93);
     font-family: "VT323", monospace;
   font-weight: 400;
   font-style: normal;
 }
 body {
-    background-color:  rgb(98, 67, 106) ;
+    background-image: url("pinkhearts.png");
+    width:100%;
+   
+    
 }
 mark {
     background-color:rgb(174, 174, 174);
