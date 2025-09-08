@@ -1,0 +1,71 @@
+
+.container {
+    position:center;
+    text-align: center;
+    color: black;
+    width:60%;
+    
+}
+
+.musicchoices {
+    position: absolute;
+    top:0%;
+    left:30%;
+    transform: translate(-50%, 50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+dl {
+    font-size:small;
+}
+dt:hover {
+    background-color:rgb(48, 151, 235);
+    border-radius: 5px;
+}
+
+a:visited {
+    color:black
+}
+a {
+    text-decoration: none;
+}
+
+.inline-block1 {
+    background:#ffffff;
+    padding: 10px;
+    border:rgb(100, 67, 100) 5px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+   float: right;
+   font-size:xx-large;
+   font-family:'Courier New', Courier, monospace;
+}
+
+dt:hover {
+    background: radial-gradient(rgb(55, 135, 247),lightblue
+    );
+    border-radius:5px;
+    
+}
+.title {
+    position: absolute;
+    top: 300px;
+    right:-200px;
+     transform: translate(-50%, 50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+    color:rgb(255, 255, 255);
+    font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    background-color:  rgb(98, 67, 106) ;
+}
+mark {
+    background-color:rgb(174, 174, 174);
+}
+img {
+    top:-5px;
+    width:200px;
+}
