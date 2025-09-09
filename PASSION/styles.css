@@ -4,5 +4,6 @@ body {
 .album:hover {
   background-image: url('recordbutton.png');
   background-size:cover;
+  background-repeat: no-repeat;
 }
 
