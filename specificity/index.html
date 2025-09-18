@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>specificity</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            header {
+                background: lightgray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Specificity</h1>
+
+<!-- Inline is the most specific stylesheet declaration-->
+
+        <header style="background:lightyellow;">
+            Stylesheet specificty: <br>
+            external < embedded < inline
+        </header>
+
+        <main class="class" id="id">
+            Identifier specificity: <br>
+            tag < class < id
+        </main>
+
+        <footer>
+            location specificity: <br>
+            lower < higher
+        </footer>
+        
+    </body>
+</html>

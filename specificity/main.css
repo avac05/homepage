@@ -1,0 +1,44 @@
+img {
+    max-width:100%;
+}
+
+* {
+    box-sizing:border-box ;
+}
+
+body {
+    background:lightcyan
+}
+header {
+    background: lightpink;
+    padding:10px;
+    margin: 10px;
+}
+
+main {
+    background: burlywood;
+    padding:10px;
+    margin: 10px;
+}
+
+.class {
+    background:beige
+}
+
+/* id is the most specific identifier declaration */
+#id {
+    background: lightpink;
+}
+
+footer {
+    background:burlywood;
+    padding: 10px;
+    margin:10px;
+
+}
+
+/* rules declared lower in the stylesheet are more specific*/
+
+footer {
+    background:lightsteelblue;
+}
