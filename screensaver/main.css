@@ -1,0 +1,250 @@
+img {
+    max-width:35%;
+}
+
+body {
+    margin:0px;
+}
+
+.title-2 {
+    position:absolute;
+    top:120px;
+    left:600px;
+    color:white;
+    
+  font-family: "Honk", system-ui;
+ font-size:xx-large;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 24,
+    "SHLN" 30.8;
+    animation:textfade 5s infinite alternate;
+}
+.container {
+    background:rgb(54, 141, 192);
+    height: 100vh;
+    display: flex;
+    justifY-content:space-evenly;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    animation: bkgd 5s infinite alternate;
+}
+
+@keyframes textfade {
+    0% {
+        opacity:100%;
+    }
+    100% {
+        opacity:0%;
+    }
+}
+
+@keyframes bkgd{
+    0% {
+        
+        background:rgb(110, 92, 200);
+    }
+    25% {
+        background:rgb(178, 90, 205);
+    }
+    75% {
+        background:rgb(241, 120, 217);
+    }
+    100%{
+        background:rgb(255, 191, 123);
+      
+    }
+
+}
+
+
+.machine {
+    position: absolute;
+    top:100px;
+
+}
+
+.claw {
+    position:absolute;
+    top:100px;
+    animation: clawhand 3s infinite alternate;
+}
+
+@keyframes clawhand{
+    0% {
+        
+        transform: translateY(100px);
+    }
+    100%{
+        
+      transform: translateY(0px);
+      
+    }
+
+}
+.duck {
+    position:absolute;
+    top:200px;
+    animation: duckclaw 6s 4.75s  alternate-reverse ease-in-out;
+}
+
+@keyframes duckclaw{
+    0% {
+        
+        transform: translateY(100px);
+    }
+    50%{
+        
+      transform: translateY(-100px);
+      
+    }
+    100% {
+       transform: translateY(100px); 
+    }
+
+}
+
+.bear {
+    position:absolute;
+    top:200px;
+    animation: bearclaw 5.75s 17s alternate-reverse ease-in-out;
+}
+
+@keyframes bearclaw{
+    0% {
+        
+        transform: translateY(100px);
+    }
+    50%{
+        
+      transform: translateY(-100px);
+      
+    }
+    100% {
+       transform: translateY(100px); 
+    }
+
+}
+
+.doll {
+    position:absolute;
+    top:200px;
+    animation: dollclaw 5.75s 30.25s  alternate-reverse ease-in-out;
+}
+
+@keyframes dollclaw{
+      0% {
+        
+        transform: translateY(100px);
+    }
+    50%{
+        
+      transform: translateY(-100px);
+      
+    }
+    100% {
+       transform: translateY(100px); 
+    }
+    }
+
+.duck2 {
+    position:absolute;
+    top:200px;
+    animation: duckclaw2 5.75s 52s  alternate-reverse ease-in-out;
+}
+
+@keyframes duckclaw2{
+    0% {
+        
+        transform: translateY(100px);
+    }
+    50%{
+        
+      transform: translateY(-100px);
+      
+    }
+    100% {
+       transform: translateY(100px); 
+    }
+
+}
+
+.bear2 {
+    position:absolute;
+    top:200px;
+    animation: bearclaw2 5.75s 78s alternate-reverse ease-in-out;
+}
+
+@keyframes bearclaw2{
+    0% {
+        
+        transform: translateY(100px);
+    }
+    50%{
+        
+      transform: translateY(-100px);
+      
+    }
+    100% {
+       transform: translateY(100px); 
+    }
+
+}
+
+.doll2 {
+    position:absolute;
+    top:200px;
+    animation: dollclaw2 5.75s 95s  alternate-reverse ease-in-out;
+}
+
+@keyframes dollclaw2{
+      0% {
+        
+        transform: translateY(100px);
+    }
+    50%{
+        
+      transform: translateY(-100px);
+      
+    }
+    100% {
+       transform: translateY(100px); 
+    }
+    }
+.title-1 {
+    font-size: small;
+}
+
+.container {
+    background:#368dc0;
+    height: 100vh;
+    display: flex;
+    justifY-content:space-evenly;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.light1 {
+    background:rgb(69, 98, 148);
+    width:5vw;
+    height:5vw;
+    border-radius:50%;
+    animation: pulse 4s infinite alternate; 
+    left:10px;
+    top:10px;
+}
+
+@keyframes pulse {
+    0% {
+        background:rgb(69, 98, 148);
+         scale: 1; 
+    }
+
+    100%{
+        background:rgb(255, 163, 70);
+       scale: 1.4; 
+        /* you can also use scale: property now, and this is the recommended way to use this. */
+    }
+}

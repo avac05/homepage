@@ -1,0 +1,147 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+}
+
+img {
+    max-width:100%;
+}
+
+/*.square {
+    background-color:burlywood;
+    width:200px;
+    height:200px;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.18,.74,.24,.87);
+    animation-fill-mode: both;
+}
+
+.square2 {
+    background-color:burlywood;
+    width:200px;
+    height:200px;
+    animation: test2 4s 2s 2 alternate ease-in-out both;
+}
+
+@keyframes test {
+    0% {
+        background-color: pink;
+        width:200px;
+    }
+    100% {
+        background-color:rgb(104, 79, 137);
+        width:600px;
+    }
+}
+
+@keyframes test2 {
+    0% {
+        background-color: rgb(72, 209, 209);
+        width:200px;
+    }
+    100% {
+        background-color:rgb(171, 246, 144);
+        width:600px;
+    }
+}
+*/
+
+.container {
+    background:#f2e1ff;
+    height: 100vh;
+    display: flex;
+    justifY-content:space-evenly;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle {
+    background:rgb(69, 98, 148);
+    width:15vw;
+    height:15vw;
+    border-radius:50%;
+    animation: pulse 4s infinite alternate; 
+}
+
+@keyframes pulse {
+    0% {
+        background:rgb(69, 98, 148);
+         scale: 1; 
+    }
+
+    100%{
+        background:rgb(255, 163, 70);
+       scale: 1.4; 
+        /* you can also use scale: property now, and this is the recommended way to use this. */
+    }
+}
+
+
+.box {
+    background:rgb(69, 98, 148);
+    width:15vw;
+    height:15vw;
+    animation: spin 4s infinite linear;
+    
+}
+
+@keyframes spin {
+    0% {
+        rotate:0;
+    }
+
+    100% {
+        rotate:360deg;
+        /* deg means degrees. the rotating property uses degrees. you don't need to add this to 0*/
+    }
+
+}
+.mover {
+    background:rgb(69, 98, 148);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    animation: move 4s infinite  ease-in-out;
+}
+
+@keyframes move{
+    0% {
+        /* one way --> left:-150px; */ 
+        translate:-150px;
+    }
+    45%{
+        rotate:0deg;
+    }
+    50% {
+        rotate: 180deg;
+    }
+    100%{
+        /* one way --> left:100vw; */
+        translate:100vw;
+        rotate: 180deg;
+    }
+
+}
+
+.changer {
+    background:rgb(69, 98, 148);
+    width: 15vw;
+    height: 15vw;
+    transition: background 4s, border-radius 1s, rotate 2s;
+}
+.changer:hover {
+    background:rgb(255, 163, 70);
+    border-radius:50%;
+    rotate:180deg;
+
+}

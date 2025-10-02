@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background:rgb(112, 140, 192);
+    transition: background .5s;
+}
+
+img {
+    max-width:100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin:0 auto;
+    /* with margins you can have up to 4 values to change each margin side*/
+}
+
+header, .left, .center, .right, footer, .mobile-banner {
+    border:1px solid;
+    padding:20px;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header {
+    margin-bottom:10px;
+}
+
+footer {
+    margin-top:10px;
+}
+
+.mobile-banner {
+    margin-bottom:10px;
+    background:lightblue;
+    text-align:center;
+    display:none;
+}
+
+main {
+    display:flex;
+    gap:10px;
+}
+
+.left, .right {
+    width:25%;
+}
+
+.center {
+    width:50%;
+}
+
+/*
+    max-width = desktop-first
+    min-width = mobile-first (industry standard)
+*/
+
+
+
+/* table media query */ /* media queries should go from large to small */
+@media screen and (max-width: 1000px) {
+    body {
+        background:rgb(115, 161, 186);
+    }
+    
+    main {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .center, .right {
+        width:calc(50% - 5px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background:rgb(196, 150, 196)
+    }
+}
+
+/* phone media query*/
+@media screen and (max-width: 600px) {
+    body {
+        background: lightgoldenrodyellow;
+        font-size: 120%;
+    }
+    
+     .mobile-banner {
+        display:block;
+   }
+   .center, .right {
+    width:100%;
+   }
+  
+    
+}
+
+/* with a mobile-first design mindset, you go from the smallest to the largest media query. To denote this you change the max-width to min-width (meaning like 600px or larger)*/
