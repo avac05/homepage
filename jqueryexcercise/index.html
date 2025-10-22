@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>jquery excercise</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<!--Currently unfinished. Still needs to add spin and reveal javascript-->
+    <body>
+        <div class="buttons">
+            <button class="dark-btn">dark</button>
+             <button class="spin-btn">spin</button>
+            <button class="reveal-btn">reveal</button>
+        </div>
+        <div class="container">
+            <div class="box draggable"></div>
+            <div class="box draggable"></div>
+            <div class="box draggable"></div>
+        </div>
+    <!-- order of the scripts in important.
+     1. General jquery file (this has the most reliant on it)
+     2. Then the ui jquery
+     3. Then the personal javascript file -->
+    <script src="jquery-3.7.1.min.js"></script>
+    
+    <script src="jquery-ui.min.js"></script>
+
+    <!-- our personal scripts are usually the last script reference--></script>
+    <script src="main.js"></script>
+        
+    </body>
+</html>

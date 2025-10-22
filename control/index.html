@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Cafe</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+       
+         <div class="order1">
+            ORDER 1
+            <ol>
+                <li>Pastel de Nata</li>
+                <li>Pao de Deus</li>
+            </ol>
+         </div>   
+                <div class="order2">
+                     ORDER 2
+                     <ol>
+                <li>Bola de Berlim</li>
+                <li>Bolo de Arroz</li>
+            </ol>
+                </div>   
+                 <div class="order3">
+                     ORDER 3
+                 <ol>
+                <li>Bola de Berlim</li>
+                <li>Queijada</li>
+            </ol>   
+                 </div>   
+         <div class="buttoncontainer">   
+             <button onclick="change1()">ORDER 1</button>
+             <button onclick="change2()">ORDER 2</button>
+              <button onclick="change3()">ORDER 3</button>
+        </div>
+     <div class="container">
+        <div class="item1">
+        <img class="image draggable" src="paodeus.png">  
+         <img class="image draggable" src="pasteldenata.webp">
+          <img class="image draggable" src="queijada.avif">
+           <img class="image draggable" src="bolinas.png">
+            <img class="image draggable" src="boloarroz.png">         
+        </div>
+        <div class="item2"><img src="orangeplate.png">
+         <button onclick="document.location.reload()">Restart</button>
+        </div>
+            <!-- <div class="plate"><img src="orangeplate.png"></div>
+             <div class="plate2"></div>
+        </div> !-->
+       
+    </div>
+
+ <script src="jquery-3.7.1.min.js"></script>
+ <script src="jquery-ui.min.js"></script>
+ <script src="main.js"></script>
+
+<script>
+
+    var order1 = document.querySelector(".order1");
+  var order2 = document.querySelector(".order2");
+    var order3 = document.querySelector(".order3");
+function change1() {
+  console.log('it works!');
+   order1.classList.toggle("active");
+}
+function change2() {
+  console.log('it works!');
+  order2.classList.toggle("active");
+}
+function change3() {
+  console.log('it works!');
+  order3.classList.toggle("active");
+}
+</script> 
+
+    </body>
+</html>

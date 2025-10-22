@@ -1,0 +1,39 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+     background:lightgray;
+}
+
+body.dark{
+    background:lightslategray;
+}
+
+img {
+    max-width:100%;
+}
+
+.buttons {
+    position:fixed;
+    top:10px;
+    left:10px;
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.box {
+    width:100px;
+    height:100px;
+    background:rgb(92, 145, 162);
+    transition:background .3s;
+}
+
+.box.dark {
+    background:rgb(87, 108, 107);
+}

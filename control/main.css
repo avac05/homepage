@@ -1,0 +1,199 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url("porttile.jpg");
+}
+img {
+    max-width:100%;
+}
+
+.container {
+  
+    padding:10px;
+    display:flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:10px;
+}
+.buttoncontainer {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:10px;
+   
+}
+
+.order1{
+      background:rgb(255, 255, 255);
+    position:fixed;
+    right:-200px;
+    padding:20px;
+    width:200px;
+    height:25vh;
+    text-align:center;
+    font-size:150%;
+
+    transition:all .3s;
+
+    font-family:'Courier New', Courier, monospace;
+}
+
+.order2{
+      background:rgb(255, 255, 255);
+    position:fixed;
+    top:300px;
+    right:-200px;
+    padding:20px;
+    width:200px;
+    height:25vh;
+    text-align:center;
+    font-size:150%;
+
+    transition:all .3s;
+
+      font-family:'Courier New', Courier, monospace;
+}
+
+.order3{
+      background:rgb(255, 255, 255);
+    position:fixed;
+    top:600px;
+    right:-200px;
+    padding:20px;
+    width:200px;
+    height:25vh;
+    text-align:center;
+    font-size:150%;
+
+    transition:all .3s;
+
+      font-family:'Courier New', Courier, monospace;
+}
+
+
+/*
+.order1 {
+    background:white;
+    top:0;
+    height:200px;
+    width:200px;
+     transition:all .3s;
+}
+.order2 {
+    background:white;
+    top:0;
+    height:200px;
+    width:200px;
+     transition:all .3s;
+}
+.order3 {
+    background:white;
+    top:0;
+    height:200px;
+    width:200px;
+     transition:all .3s;
+}
+*/
+.active {
+    right:0%
+}
+.item1 {
+   background:radial-gradient(darkgray,
+   gray, lightgray
+   );
+   border-radius:5px;
+   border:10px;
+   border-color:black;
+    padding: 10px;
+    width: 600px;
+    height:800px;
+
+    display:flex;
+   flex-wrap: wrap;
+    justify-content:center;
+     align-items:center;
+}
+
+.image {
+    width:250px;
+    height:250px;
+
+}
+
+.item2 {
+ 
+    padding: 10px;
+    width: 600px;
+    height:600px;
+    flex-direction: column;
+    display:flex;
+    justify-content:center;
+     align-items:center;
+}
+
+
+/*
+.drink{
+     display: flex;
+    justify-content:left;
+    align-items: center;
+    gap:10px;
+    background:white;
+    height:500px;
+    width:300px;
+}
+
+
+.platecontainer{
+    display:flex;
+    width: 550px;
+    height: 550px;
+    justify-content:center;
+    position:absolute;
+    background:rgb(255, 184, 30);
+
+}
+.plate {
+  width: 500px;
+  height: 500px;
+}
+
+.food{
+      display: flex;
+    justify-content: right;
+    align-items: center;
+    gap:10px;
+    background:rgb(83, 0, 198);
+    height:500px;
+    width:300px;
+}
+*/
+
+button {
+    background:rgb(34, 96, 144);
+    color:white;
+    border-color:white;
+    width:100px;
+    height:50px;
+    font-family:'Courier New', Courier, monospace;
+    font-size:larger;
+}
+button:hover {
+    background:rgb(12, 48, 75);
+}
+
+/*
+.plate {
+    background-color:rgb(221, 144, 0);
+    width:500px;
+    height:500px;
+    border-radius:300px;
+    position:absolute;
+   justify-content:center;
+}
+   */
