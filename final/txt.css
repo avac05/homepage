@@ -1,0 +1,91 @@
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vh;
+    background:radial-gradient(pink,white);
+
+}
+
+.mp3 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index: -1;
+
+
+}
+.mp3img{
+     z-index: 0;
+      display:flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url("Mp3player_ui.png");
+    background-repeat: no-repeat;
+    background-size: 950px;
+    width:100vh;
+    height:100vh;
+}
+.options {
+    position:relative;
+    align-items:left;
+    justify-content: left;
+    top:-100px;
+    left:55px;
+    z-index: 2;
+  
+    overflow:hidden;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+img{
+    width:400px;
+    height:400px;
+    position: relative;
+    left:200px;
+    z-index: 0;
+    
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    
+    color:rgb(103, 103, 103);
+}
+
+h2{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    
+    color:rgb(103, 103, 103);
+    background:radial-gradient(lightgray,gray);
+    border-radius: 5px;
+    padding:10px 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+p:hover{
+    background:radial-gradient(darkblue, lightblue);
+    border-radius: 5px;
+}
+
+.menu {
+  
+    position:fixed;
+    top:0;
+    right:-500px;
+    padding:20px;
+    width:400px;
+    height:100px;
+    text-align:center;
+    font-size:150%;
+
+    transition:all .3s;
+}
+.active {
+    right:0%
+}
