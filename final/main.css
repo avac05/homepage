@@ -1,0 +1,153 @@
+/*
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+
+body{
+    display:grid;
+    place-content:center;
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+    background:lightblue;
+
+}
+
+.flipbook{
+    width:1000px;
+    height:600px;
+
+}
+.flipbook .hard {
+    background: rgb(161, 101, 161) !important;
+    color:white;
+}
+.flipbook .page {
+    background:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    border: 1px solid black;
+}
+
+.page img{
+    width:70%;
+    object-fit: cover;
+    margin:auto;
+}
+*/
+/*
+ body {
+    background:lightblue;
+}
+
+.mp3 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index: -1;
+    background: pink;
+
+}
+.mp3img{
+     z-index: 0;
+      display:flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url("mp3player\ copy.png");
+    width:100vh;
+    height:100vh;
+}
+.options {
+    position:relative;
+    align-items:center;
+    justify-content: center;
+    top:-100px;
+    left:55px;
+    z-index: 1;
+  
+    overflow:hidden;
+    font-size: x-large;
+    text-align: center;
+}
+
+p:hover{
+    background:radial-gradient(darkblue,lightblue);
+    border-radius:5px;
+}
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url(glittergif.gif);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    height:100vh;
+
+}
+
+.img-wrapper{
+    position:relative;
+    width:200px;
+    height:200px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+.img-wrapper span{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    transform: rotateY(calc(var(--a) * 45deg)) translateZ(400px);
+    transition: transform 1.7s; 
+}
+
+.img-wrapper span img{
+      position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.btn-wrapper{
+    position:relative;
+    width:80%;
+}
+.btn{
+    position:absolute;
+    bottom:-80px;
+    background:rgb(0, 0, 0);
+    border:none;
+    color:white;
+    opacity:50%;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+.btn:hover{
+    filter: brightness(1.5);
+}
+#prev{
+    left:20%;
+}
+
+#next{
+    right: 20%;
+}
