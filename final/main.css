@@ -132,10 +132,10 @@ body{
 .btn{
     position:absolute;
     bottom:-80px;
-    background:rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
     border:none;
-    color:white;
-    opacity:50%;
+    color:rgb(84, 84, 84);
+    border: 2px rgb(117, 43, 117) solid;
     border-radius: 5px;
     padding: 10px 20px;
 
@@ -151,3 +151,6 @@ body{
 #next{
     right: 20%;
 }
+
+img{
+    border: 2px rgb(117, 43, 117) solid;}
