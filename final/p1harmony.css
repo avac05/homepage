@@ -4,12 +4,12 @@ img {
 
 body {
     margin:0;
-
+  background:rgb(57, 20, 69);
 
 }
 
 .container {
-    background:linear-gradient(rgb(113, 41, 137),white);
+    background:rgb(57, 20, 69);
     /*background-image: url("glittergif.gif");*/
     height:auto;
      display:flex;
@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-   background:linear-gradient(rgb(113, 41, 137),white);
+   background:linear-gradient(rgb(113, 41, 137,.5),rgb(255, 255, 255,.5));
     display:flex;
     height:200px;
     width:1000px;
@@ -41,10 +41,10 @@ body {
   font-size: 100px;
   margin:10px;
   border-radius: 20px 20px 20px 20px;
-  border:5px solid;
+  border:2px solid;
     border-color:rgb(255, 255, 255);
   color:white;
-box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+box-shadow: 5px 5px 5px 5px rgb(0, 0, 0,.5);
 }
 /*
 .body-contain {
@@ -66,13 +66,13 @@ box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
 }
 */
 .section-1{
-      background:rgb(113, 41, 137);
+       background:rgb(57, 20, 69,.5);
     border-radius: 20px 20px 20px 20px;
-    border:5px solid;
+    border:2px solid;
     border-color:white;
     display:flex;
     flex-direction:column;
-    height:600px;
+    height:645px;
     width:400px;
     margin:10px; 
     padding: 15px;
@@ -85,7 +85,7 @@ box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
   font-variation-settings:
     "wdth" 100;
      flex-shrink:0;
-     box-shadow: inset 2px 2px 2px 2px rgb(113, 41, 137);
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0,.5);
 
 }
 .section-2{
@@ -141,34 +141,35 @@ box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
 .bdycontain{
    background:linear-gradient(rgb(113, 41, 137),white);
     border-radius: 20px 20px 20px 20px;
-    border:5px solid;
+    border:2px solid;
     border-color:white;
     display:flex;
     width:1000px;
     height:auto;
     margin:10px;
+    gap:10px;
     padding: 10px;
     overflow:wrap;
     flex-wrap:wrap;
     align-items: center;
     justify-content: center;
     box-shadow: inset 3px 3px 3px 3px darkgray;
-box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);    
+box-shadow: 5px 5px 5px 5px rgb(0, 0, 0,.5);  
 }
 
 img {
   width:75;
   height:100%;
- border-radius: 5px;
-    border:5px solid;
+ border-radius: 20px;
+    border:2px solid;
     border-color:white;
-    box-shadow: 5px 5px 5px 5px rgb(113, 41, 137)}
+box-shadow: 5px 5px 5px 5px rgb(0, 0, 0,.5)}
 .video {
-  border-radius: 5px;
-    border:5px solid;
+  border-radius: 20px;
+    border:2px solid;
     border-color:rgb(113, 41, 137) ;
     gap:5px;
-    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0,.5);
 }
 button {
   background:rgb(255, 136, 0);

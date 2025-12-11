@@ -98,6 +98,7 @@ body{
     justify-content: center;
     text-align:center;
     height:100vh;
+    cursor: url('musicnotecursor.png'), auto;
 
 }
 
@@ -107,6 +108,7 @@ body{
     height:200px;
     transform-style: preserve-3d;
     transform: perspective(1000px) rotateY(0deg);
+transition:2s;
 }
 
 .img-wrapper span{
@@ -156,3 +158,31 @@ body{
 
 img{
     border: 2px rgb(117, 43, 117) solid;}
+
+#countdown{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+   width:600px;
+   height:100px;
+   background:rgb(228, 115, 2);
+    font-family: "Lexend Tera", sans-serif;
+    color:white;
+    font-size:xx-large
+
+}
+.barrio-regular {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, p{
+     font-family: "Lexend Tera", sans-serif;
+      font-size:xx-large;
+      align-items: center;
+}
+.louis{
+    width:300px;
+    height:400px;
+}
