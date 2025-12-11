@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-   background:linear-gradient(rgb(113, 41, 137),rgb(196, 196, 196));
+   background:linear-gradient(rgb(113, 41, 137),white);
     display:flex;
     height:200px;
     width:1000px;
@@ -40,16 +40,16 @@ body {
   font-style: normal;
   font-size: 100px;
   margin:10px;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 20px 20px;
   border:5px solid;
     border-color:rgb(255, 255, 255);
   color:white;
- box-shadow: 5px 5px 5px 5px rgb(50, 55, 118);
+box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
 }
-
+/*
 .body-contain {
  background:linear-gradient(rgb(113, 41, 137),rgb(196, 196, 196));
-     border-radius: 5px;
+    border-radius: 20px 20px 20px 20px;
     border:5px solid;
     border-color:white;
     display:flex;
@@ -63,12 +63,11 @@ body {
     box-shadow: inset 3px 3px 3px 3px darkgray;
     box-shadow: 5px 5px 5px 5px rgb(50, 55, 118);
     justify-content: center;
-    
 }
-
+*/
 .section-1{
       background:rgb(113, 41, 137);
-    border-radius: 5px;
+    border-radius: 20px 20px 20px 20px;
     border:5px solid;
     border-color:white;
     display:flex;
@@ -90,10 +89,10 @@ body {
 
 }
 .section-2{
-       background: white;
+       /*background: white;
     border-radius: 5px;
     border:5px solid;
-    border-color:white;
+    border-color:white;*/
     display:flex;
    flex-shrink:0;
     height:700px;
@@ -112,7 +111,7 @@ body {
     padding:5px;
 
     justify-content:center;
-     box-shadow: inset 2px 2px 2px 2px rgb(50, 55, 118);
+ 
      
 }
 /*
@@ -140,8 +139,8 @@ body {
 }
 */
 .bdycontain{
-   background:linear-gradient(rgb(113, 41, 137),rgb(196, 196, 196));
-    border-radius: 5px;
+   background:linear-gradient(rgb(113, 41, 137),white);
+    border-radius: 20px 20px 20px 20px;
     border:5px solid;
     border-color:white;
     display:flex;
@@ -154,8 +153,7 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: inset 3px 3px 3px 3px darkgray;
-    box-shadow: 5px 5px 5px 5px rgb(50, 55, 118);
-    
+box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);    
 }
 
 img {
@@ -170,7 +168,7 @@ img {
     border:5px solid;
     border-color:rgb(113, 41, 137) ;
     gap:5px;
-    box-shadow: 5px 5px 5px 5px rgb(50, 55, 118);
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
 }
 button {
   background:rgb(255, 136, 0);

@@ -138,6 +138,8 @@ body{
     border: 2px rgb(117, 43, 117) solid;
     border-radius: 5px;
     padding: 10px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 
 }
 

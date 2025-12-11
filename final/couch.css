@@ -1,0 +1,44 @@
+h3{
+ font-family: "Lexend Tera", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 30px;
+}
+h4{
+ font-family: "Lexend Tera", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 30px;
+
+}
+h5{
+ font-family: "Lexend Tera", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 30px;
+}
+p{
+ font-family: "Lexend Tera", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 30px;
+}
+
+img{
+    width:300px;
+    height:200px;
+}
+body{
+    background-image:url("glittergif.gif");
+
+}
+.container{
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
