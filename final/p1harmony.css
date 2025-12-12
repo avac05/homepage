@@ -5,7 +5,7 @@ img {
 body {
     margin:0;
   background:rgb(57, 20, 69);
-
+cursor:url("p1h_cursor.png"),auto;
 }
 
 .container {

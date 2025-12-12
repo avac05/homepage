@@ -157,7 +157,10 @@ transition:2s;
 }
 
 img{
-    border: 2px rgb(117, 43, 117) solid;}
+    border: 1.5px rgb(117, 43, 117) solid;
+border-radius:20px;
+}
+    
 
 #countdown{
     display:flex;
@@ -165,10 +168,13 @@ img{
     justify-content:center;
    width:600px;
    height:100px;
-   background:rgb(228, 115, 2);
+   background:rgb(228, 115, 2, .5);
     font-family: "Lexend Tera", sans-serif;
     color:white;
-    font-size:xx-large
+    font-size:xx-large;
+    border-radius:20px;
+    border:2px solid white;
+    
 
 }
 .barrio-regular {
@@ -185,4 +191,5 @@ h1, p{
 .louis{
     width:300px;
     height:400px;
+    border-radius:20px;
 }
