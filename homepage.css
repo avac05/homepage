@@ -1,8 +1,37 @@
 body{
     background-image:url("homepage_imgs/daisies.jpg");
-   
+   display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
 
 }
+
+.title{
+    background: radial-gradient(rgb(255, 197, 207,.75), rgb(255, 255, 255,.75));
+    border:white 5px solid;
+    border-radius:20px;
+    width:1200px;
+    height:200px;
+   color:rgb(255, 145, 164);
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+
+.bio{
+    background: radial-gradient(rgb(255, 197, 207,.75), rgb(255, 255, 255,.75));
+    border:white 5px solid;
+    border-radius:20px;
+    width:1200px;
+    height:120px;
+   color:rgb(255, 145, 164);
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+
 h1{
     text-align:center;
      color:rgb(255, 145, 164);
@@ -25,17 +54,19 @@ div {
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    overflow: wrap;
-    gap:5px;
+    flex-wrap:wrap;
+    gap:10px;
+    width:1000px;
+    height:1000px;
 }
 
 .first, .journal, .structure, .control, .screensaver, .final, .passion1, .passion2 {
     background: radial-gradient(rgb(255, 197, 207,.75), rgb(255, 255, 255,.75));
-    border:white 2px solid;
+    border:white 5px solid;
     border-radius:20px;
     width:200px;
     height:400px;
-    color:white;
+   color:rgb(255, 145, 164);
     align-items:center;
     justify-content:center;
     display:flex;
@@ -48,12 +79,32 @@ h2{
   font-weight: 400;
   font-style: normal;
   font-size:50px;
+  text-decoration: none;
+  
 }
+
+h3{
+      text-align:center;
+     color:rgb(255, 145, 164);
+    font-size: 30px;
+       font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+border-radius:20px;
+padding:5px;
+}
+
+
 .cherry-bomb-one-regular {
   font-family: "Cherry Bomb One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
+a{
+     text-decoration: none;
+}
+
 .first:hover{
     background-image: url('firstwebpic.png');
 }
