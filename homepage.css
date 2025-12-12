@@ -1,11 +1,17 @@
 body{
-    background-color:rgb(255, 197, 207);
-    color:whitesmoke;
+    background-image:url("homepage_imgs/daisies.jpg");
+   
+
 }
 h1{
     text-align:center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150px;
+     color:rgb(255, 145, 164);
+    font-size: 125px;
+       font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+        
 }
 ul { 
     display: inline-block; text-align: left; 
@@ -13,4 +19,62 @@ ul {
 div { 
     text-align: center; 
     float:center;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: wrap;
+    gap:5px;
+}
+
+.first, .journal, .structure, .control, .screensaver, .final, .passion1, .passion2 {
+    background: radial-gradient(rgb(255, 197, 207,.75), rgb(255, 255, 255,.75));
+    border:white 2px solid;
+    border-radius:20px;
+    width:200px;
+    height:400px;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    
+}
+
+h2{
+    rotate:90deg;
+      font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:50px;
+}
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.first:hover{
+    background-image: url('firstwebpic.png');
+}
+.journal:hover{
+    background-image: url('journalpic.png');
+}
+.structure:hover{
+    background-image: url('structurepic.png');
+}
+.control:hover{
+    background-image: url('controlpic.png');
+}
+.screensaver:hover{
+    background-image: url('screensaverpic.png');
+}
+.passion1:hover{
+    background-image: url('passion1pic.png');
+}
+.passion2:hover{
+    background-image: url('passion2pic.png');
+}
+.final:hover{
+    background-image: url('finalpic.png');
 }
